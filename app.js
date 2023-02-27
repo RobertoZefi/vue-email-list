@@ -16,12 +16,12 @@ createApp({
             
             })
         },
-
-        mounted(){
-            for (let i = 0; i < 10; i++){
-                this.generateEmail()
-            }
-        }
     },
+
+    mounted(){
+        for (let i = 0; i < 10; i++){
+            this.generateEmail()
+        }
+    }
     
 }).mount('#app')
